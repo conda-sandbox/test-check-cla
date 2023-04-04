@@ -23,9 +23,10 @@ jobs:
       - name: Check CLA
         uses: conda/actions/check-cla@customize-cla-repo
         with:
-          token: ${{ secrets.TCC-TOKEN }}
+          token: ${{ secrets.TCC_TOKEN }}
           label: cla-signed
 
-          cla_repo: kenodegard/test-check-cla
-          cla_token: ${{ secrets.TCC-CLA_TOKEN}}
+          cla_repo: kenodegard-org/test-check-cla
+          cla_fork: kenodegard-bot/test-check-cla
+          cla_token: ${{ secrets.TCC_CLA_TOKEN }}
           cla_path: .github/cla-config.yml
