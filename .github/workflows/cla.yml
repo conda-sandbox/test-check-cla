@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.ALL_COMMENTS_LABELS_STATUSES_TOKEN }}
           label: cla-signed
 
-          cla_repo: kenodegard-org/test-check-cla
+          cla_repo: conda-sandbox/test-check-cla
           cla_path: .github/cla-config.yml
 
           cla_fork: kenodegard-bot/test-check-cla
