@@ -30,3 +30,4 @@ jobs:
 
           cla_fork: kenodegard-bot/test-check-cla
           cla_token: ${{ secrets.TCC_CREATE_PR_TOKEN }}
+          cla_author: Bot <105068560+kenodegard-bot@users.noreply.github.com>
