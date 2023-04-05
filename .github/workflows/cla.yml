@@ -22,11 +22,11 @@ jobs:
     steps:
       - uses: conda/actions/check-cla@customize-cla-repo
         with:
-          token: ${{ secrets.TCC_TOKEN }}
+          token: ${{ secrets.ALL_COMMENTS_LABELS_STATUSES_TOKEN }}
           label: cla-signed
 
           cla_repo: kenodegard-org/test-check-cla
           cla_path: .github/cla-config.yml
 
           cla_fork: kenodegard-bot/test-check-cla
-          cla_token: ${{ secrets.TCC_CLA_TOKEN }}
+          cla_token: ${{ secrets.TCC_CREATE_PR_TOKEN }}
