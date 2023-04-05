@@ -11,7 +11,7 @@ jobs:
     if: >-
       !github.event.repository.fork
       && (
-        github.event.comment.body == '@conda-bot check'
+        github.event.comment.body == '@kenodegard-bot check'
         && github.event.issue.pull_request
         || github.event_name == 'pull_request_target'
       )
