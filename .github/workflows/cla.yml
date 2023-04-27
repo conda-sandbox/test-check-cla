@@ -20,7 +20,7 @@ jobs:
     #   pull-requests: write
     #   statuses: write
     steps:
-      - uses: conda/actions/check-cla@customize-cla-repo
+      - uses: conda/actions/check-cla@release-23.4.0
         with:
           token: ${{ secrets.ALL_COMMENTS_LABELS_STATUSES_TOKEN }}
           label: cla-signed
